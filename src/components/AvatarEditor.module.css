@@ -1,0 +1,173 @@
+/* AvatarEditor.module.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .sidebar {
+    flex: 0 0 250px; /* Set sidebar width */
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+  .mainArea {
+    flex: 1; /* Fill remaining space */
+    width: 60%;
+    padding: 20px;
+  }
+
+  .footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #8abef5;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    border: #66b0ff 2px solid;
+
+  }
+
+  .footer:hover {
+    background-color: #0056b3;
+  }
+
+
+  .tabs {
+    width: 80%;
+    margin: 20px;
+    display: inline-grid;
+  }
+
+  .tabs button {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .activeTab {
+    background-color: #8abef5; /* Background color for active tab */
+    color: #fff; /* Text color for active tab */
+  }
+
+  .avatarPreview {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Emojis.module.css */
+  .container {
+    padding: 20px;
+  }
+
+  .emojisGrid {
+    position: absolute;
+    top: 130px;
+    margin: 30px;
+  }
+
+  .emojisGrid span {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .selected {
+    border: 2px solid #000;
+  }
+
+  /* Colors.module.css */
+.container {
+    padding: 20px;
+  }
+
+  .colors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 5px;
+    position: absolute;
+    top: 130px;
+  }
+
+  .colorOption {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centeredText {
+    /* Style to center the text */
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Monogram.module.css */
+  .container {
+    padding: 20px;
+  }
+
+  .colorPicker {
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 5px;
+    position: absolute;
+    top: 130px;
+  }
+
+  .monogramColors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 5px;
+    position: absolute;
+    top: 30px;
+  }
+
+  .monogramInput{
+    position: absolute;
+    top: 130px;
+    left: 70%;
+  }
+
+  .monogramInput input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .monogramInput label,
+  .colorPicker label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* Updated styles */
+.selectedAvatarPreview {
+    background-color: #ddd;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+  }
