@@ -19,6 +19,8 @@
   }
 
   .footerContainer{
+    position: relative;
+    bottom: 18%;
     display: flex;
     flex-direction: row;
     justify-content: end;
