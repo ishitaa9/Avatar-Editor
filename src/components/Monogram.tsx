@@ -37,7 +37,7 @@ const Monogram: React.FC<MonogramProps> = ({ onColorSelect, onTextChange }) => {
               style={{ backgroundColor: color }}
               onClick={() => handleColorSelect(color)}
             >
-              <span className={styles.centeredText}>{inputValue}</span> {/* Centered text */}
+              <span className={styles.centeredText}>{inputValue}</span>
             </div>
           ))}
           {gradientColors.map((gradient, index) => (
@@ -47,7 +47,7 @@ const Monogram: React.FC<MonogramProps> = ({ onColorSelect, onTextChange }) => {
               style={{ backgroundImage: gradient }}
               onClick={() => handleColorSelect(gradient)}
             >
-              <span className={styles.centeredText}>{inputValue}</span> {/* Centered text */}
+              <span className={styles.centeredText}>{inputValue}</span>
             </div>
           ))}
         </div>
